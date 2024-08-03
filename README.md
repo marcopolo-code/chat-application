@@ -24,7 +24,7 @@ The application allows multiple users to connect to a central server, send messa
 - Step 1: Clone the repository (Run the following commands in a Terminal application): \
  \```sh \
  git clone https://github.com/marcopolo-code/chat-application.git \
- cd online-chat-application 
+ cd chat-application 
 - Step 2: Compile the source code using the following command: javac -d bin src/com/chatapp/server/ChatServer.java src/com/chatapp/client/ChatClient.java
 - Step 3: Run the server: java -cp bin com.chatapp.server.ChatServer
 - Step 4: Run the client: java -cp bin com.chatapp.client.ChatClient
